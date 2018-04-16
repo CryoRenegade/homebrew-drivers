@@ -5,10 +5,10 @@ cask 'elgato-game-capture-hd' do
 
     url "http://files.elgato.com/gamecapture/gchdm_#{version.no_dots}.dmg"
   else
-    version '2.6_1214'
-    sha256 'eb5236e5435f45123edd28510a1c0c97248bebd6c3c870bfef55aa30694664e6'
+    version '2.9'
+    sha256 'aab4a7d9b5f132c6e267378a3c9278fe582fbbb9575bacb458657716845646b9'
 
-    url "https://edge.elgato.com/egc/macos/egcm/#{version.major_minor_patch}/final/gchdm_#{version.no_dots}.dmg"
+    url 'https://edge.elgato.com/egc/macos/egcm/2.9/final/Game%20Capture%20HD%202.9%20(1324).dmg'
   end
 
   appcast 'http://updates.elgato.com/autoupdate/gameCapture20.rss?lang=English',
